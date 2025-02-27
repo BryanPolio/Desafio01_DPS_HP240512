@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Sobre que es mi proyecto/desafio:
 
-## Getting Started
+* Reserva de Canchas Deportivas con Next.js:
+   -Este proyecto esta diseñado para el desafio 01 de DPS, en el se necesita gestionar las canchas de 3 tipos de deportes
+    Futbol, Baloncesto y Tenis.
+  
+  Aqui se explicara la estrucciona y cierta parte del proyecto como componentes y tecnologias usadas: 
 
-First, run the development server:
+* Componentes principales del proyecto para su funcionamiento:
+  
+  Tenemos 4 componentes que nos ayudaran a poder registrar y gestionar lo que son las reservas de cada usuario que use la 
+  app.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ *Selección de deportes*: Elige entre Fútbol, Baloncesto o Tenis.
+ *Reserva de canchas*: Visualiza las canchas disponibles y reserva la que prefieras.
+ *Resumen de reserva*: Muestra los detalles de la reserva, incluyendo la cancha, el deporte y la duración.
+ *Interfaz amigable*: Diseño responsivo y fácil de usar gracias a Bootstrap.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Tecnologías utilizadas*:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+  Las tecnologias usadas en el proyecto fueron.
+  
+*Next.js*: Framework de React para aplicaciones web modernas.
+*React*: Biblioteca de JavaScript para construir interfaces de usuario.
+*Bootstrap*: Framework de CSS para estilos responsivos y predefinidos.
+*GitHub*: Para el control de versiones y alojamiento del código.
+  
+  
+* Estructura del proyecto:
+  
+La organización de carpetas y archivos para que otros desarrolladores puedan entender cómo está estructurado el código.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+DEAAROOI_GESTIONDERSERVAS_DEPORTIVAS/
+│
+├── .gitignore
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── README.md
+├── jsconfig.json
+│
+├── public/
+│   └── favicon.ico
+│
+├── src/
+│   └── app/
+│       ├── layout.js
+│       ├── page.js
+│       ├── page.module.css
+│       │
+│       └── components/
+│           ├── rs_Cancha.js
+│           ├── rs_PlanoDeportivo.js
+│           ├── rs_ResumenReserva.js
+│           └── rs_SelectorDeporte.js
+│
+└── node_modules/
 
-## Learn More
+*Cómo usar la aplicación:
+Debera descargar el proyecto y abrirlo con visual studio code posterior a eso debera abrir el terminal y ejecutar el comando
+nmp dev run para ejecutar la aplicacion y asi poder usar todas sus funciones.
 
-To learn more about Next.js, take a look at the following resources:
+*Autor:
+    Bryan Steven Hernandez Polio.
+    HP240512 
+    Tecnico en Ingenieria en Computacion de la Universidad Don Bosco.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
