@@ -94,6 +94,7 @@ Debera descargar el proyecto y abrirlo con visual studio code posterior a eso de
 nmp dev run para ejecutar la aplicacion y asi poder usar todas sus funciones.
 
 *Autor:
+
 Bryan Steven Hernandez Polio.
 
 HP240512
