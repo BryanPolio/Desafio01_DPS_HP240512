@@ -41,6 +41,7 @@ La organización de carpetas y archivos para que otros desarrolladores puedan en
 DEAAROOI_GESTIONDERSERVAS_DEPORTIVAS/
 
 │
+
 ├── .gitignore
 
 ├── next.config.mjs
@@ -55,30 +56,49 @@ DEAAROOI_GESTIONDERSERVAS_DEPORTIVAS/
 
 │
 ├── public/
+
 │   └── favicon.ico
+
 │
+
 ├── src/
+
 │   └── app/
+
 │       ├── layout.js
+
 │       ├── page.js
+
 │       ├── page.module.css
+
 │       │
+
 │       └── components/
+
 │           ├── rs_Cancha.js
+
 │           ├── rs_PlanoDeportivo.js
+
 │           ├── rs_ResumenReserva.js
+
 │           └── rs_SelectorDeporte.js
+
 │
+
 └── node_modules/
 
+
 *Cómo usar la aplicación:
+
 Debera descargar el proyecto y abrirlo con visual studio code posterior a eso debera abrir el terminal y ejecutar el comando
 nmp dev run para ejecutar la aplicacion y asi poder usar todas sus funciones.
 
 *Autor:
-    Bryan Steven Hernandez Polio.
-    HP240512 
-    Tecnico en Ingenieria en Computacion de la Universidad Don Bosco.
+Bryan Steven Hernandez Polio.
+
+HP240512
+
+Tecnico en Ingenieria en Computacion de la Universidad Don Bosco.
 
 
 
